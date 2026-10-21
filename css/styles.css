@@ -1,0 +1,78 @@
+body{
+    font-family: "Montserrat", sans-serif; 
+    padding: 0; 
+    margin: 0;
+}
+
+#page-home {
+  margin: 0 auto;
+}
+h1 {
+    font-size: 2rem;
+    color: rgb(29, 171, 0);
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h2.tit-tarjeta {
+    font-style: italic;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarjeta p {
+    font-size: 1rem;
+}
+.tarjeta p:last-child {
+    font-weight: bold;
+}
+
+#main, footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#main {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
+    margin: 5rem 0;
+}
+
+footer {
+    height: 10rem;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+@media (min-width: 768px) {
+    #main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
