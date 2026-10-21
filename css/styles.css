@@ -33,6 +33,7 @@ h2 {
 h3 {
     font-size: 1.2rem;
     line-height: 1.4;
+     text-decoration:underline;
 }
 
 .tarjeta{
@@ -44,6 +45,8 @@ h3 {
 .tarjeta p {
     font-size: 1rem;
     text-align: justify;
+    letter-spacing:0.1rem;
+    text-indent:2em;
 }
 .tarjeta p:last-child {
     font-weight: bold;
